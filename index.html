@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightslider.css">
+    <script src="css/js/JQuery3.3.1.js"></script>
+    <script src="css/js/lightslider.js"></script>
+    <link rel="shortcut icon" href="img/elbrus .png">
+    <title>Эльбрус Кино</title>
+</head>
+<body>
+<nav>
+    <a href="#" class="logo">
+        <img src="img/elbrus .png" alt="logo">
+    </a>
+    <input type="checkbox" class="menu-btn" id="menu-btn">
+    <label class="menu-icon" for="menu-btn">
+        <span class="nav-icon"></span>
+    </label>
+    <ul class="menu">
+        <li><a href="#">Мое Кино</a></li>
+        <li><a href="#">Магазин</a></li>
+        <li><a href="#">Покупки</a></li>
+    </ul>
+    <div class="search">
+        <input type="text" placeholder="Поиск фильма для вас">
+        <!-- ниже должен быть курср нужно разобраться -->
+        <i class="fa-solid fa-magnifying-glass"></i>
+    </div>
+</nav>
+<section id="main">
+    <h1 class="showcase-heading">Новое в подписки</h1> 
+    <ul id="autoWidth" class="cs-hidden">
+        <li class="item-a">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">5.6</div>
+                <img src="img/s-1.jpg" alt="picture">
+              </div>
+          </li>
+        <!-- box2 ------>
+        <li class="item-b">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">6.0</div>
+                <img src="img/s-2.jpg" alt="picture">
+            </div>
+        </li>
+        <!-- box3 ------>
+        <li class="item-c">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">7.5</div>
+                <img src="img/s-3.jpeg" alt="picture">
+            </div>
+        </li>
+        <!-- box4 ------>
+        <li class="item-d">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">9.3</div>
+                <img src="img/s-4.jpg" alt="picture">
+            </div>
+        </li>
+        <!-- box5 ------>
+        <li class="item-e">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">8.1</div>
+                <img src="img/s-5.png" alt="picture">
+            </div>
+        </li>
+        <!-- box6 ------>
+        <li class="item-f">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">8.9</div>
+                <img src="img/s-6.jpeg" alt="picture">
+            </div>
+        </li>
+         <!-- box7 ------>
+         <li class="item-f">
+            <div class="showcase-box image-container">
+                <div class="image-overlay">9.4</div>
+                <img src="img/s-7.jpeg" alt="picture">
+            </div>
+        </li>
+    </ul>
+
+</section>
+
+<section id="latest">
+    <h2 class="latest-heading">Рекомендуем посмотреть</h2>
+    <!-- slid -->
+    <ul id="autoWidth2" class="cs-hidden">
+        <!-- slider-Box-1 -->
+        <li class="item-a">
+            <div class="latest-box">
+                <!-- img -->
+                <div class="latest-b-img image-container">
+                    <div class="image-overlay">7.2</div>
+                    <img src="img/bryklin.jpg" alt="picture">
+                </div>
+                <!-- text -->
+                <div class="latest-b-text">
+                    <strong>Сиротский Бруклин</strong>
+                <p>Боевик 2020</p>
+            </div>
+
+        </div>
+    </li>
+    <!-- slider - box2 -->
+    <li class="item-b">
+        <div class="latest-box">
+            <!-- img -->
+            <div class="latest-b-img image-container">
+                <div class="image-overlay">7.9</div>
+                <img src="img/doctorStrange.jpg">
+            </div>
+            <!-- text -->
+            <div class="latest-b-text">
+                <strong>Доктор Стрендж</strong>
+                <p>Фантастика, Боевик 2022</p>
+            </div>
+
+        </div>
+    </li>
+    <!-- slider-box-3 -->
+    <li class="item-с">
+        <div class="latest-box">
+            <!-- img -->
+            <div class="latest-b-img image-container">
+                <div class="image-overlay">6.9</div>
+                <img src="img/famaly.jpeg">
+            </div>
+            <!-- text -->
+            <div class="latest-b-text">
+                <strong>Фарсаж 10</strong>
+                <p>Семейный фильм 2022</p>
+            </div>
+
+        </div>
+    </li>
+    <!-- slider-box-4 -->
+    <li class="item-d">
+        <div class="latest-box">
+            <!-- img -->
+            <div class="latest-b-img image-container">
+                <div class="image-overlay">6.1</div>
+                <img src="img/glass.jpg">
+            </div>
+            <!-- text -->
+            <div class="latest-b-text">
+                <strong>Стекло</strong>
+                <p>Боевик 2023</p>
+            </div>
+
+        </div>
+    </li>
+    <!-- slider-box-5 -->
+    <li class="item-e">
+        <div class="latest-box">
+            <!-- img -->
+            <div class="latest-b-img image-container">
+                <div class="image-overlay">7.5</div>
+                <img src="img/minions.jpg">
+            </div>
+            <!-- text -->
+            <div class="latest-b-text">
+                <strong>Миньйоны</strong>
+                <p>Мультфильм 2021</p>
+            </div>
+
+        </div>
+    </li>
+    <!-- slider-box-6 -->
+    <li class="item-f">
+        <div class="latest-box">
+            <!-- img -->
+            <div class="latest-b-img image-container">
+                <div class="image-overlay">9.0</div>
+                <img src="img/zveropolis.jpg">
+            </div>
+            <!-- text -->
+            <div class="latest-b-text">
+                <strong>Зверополис</strong>
+                <p>Мультфильм 2022</p>
+            </div>
+
+        </div>
+    </li>
+    <!-- slider-box-6 -->
+    <li class="item-f">
+        <div class="latest-box">
+            <!-- img -->
+            <div class="latest-b-img image-container">
+                <div class="image-overlay">8.4</div>
+                <img src="img/law-abiding-citizen.jpg">
+            </div>
+            <!-- text -->
+            <div class="latest-b-text">
+                <strong>Законопослушный Гражданин</strong>
+                <p>Мультфильм 2016</p>
+            </div>
+
+        </div>
+    </li>
+
+
+    </ul>
+</section>
+<!-- cont movie ------>
+<div class="movies-heading">
+    <h2>Продолжить просмотр</h2>
+</div>
+<section id="movies-list">
+    <!-- box-1----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">7.9</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-1.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Звездный путь (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-2----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">6.9</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-2.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Фантастические твари (2020) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-3----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">8.1</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-3.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Семейка Паниных 3D (2023) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-4----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">9.0</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-4.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">История игрушек (2016) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-5----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">7.6</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-5.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Коко (2018) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-6----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">4.9</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-6.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Звездные войны: Да придет позор (2017) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-7----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">9.4</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-7.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Изгой (2021) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+    <!-- box-8----------->
+    <div class="movies-box">
+        <!-- img ------->
+        <div class="movies-img image-container">
+            <div class="image-overlay">8.1</div>
+            <div class="quality">HDRip</div>
+            <img src="img/l-8.jpg">
+        </div>
+        <!-- text  ----->
+        <a href="#">Венум (2017) Full Movie[In English] With English Subtitles | HDRip 1080p HD</a>
+    </div>
+<!-- footer --------------->
+<footer>
+    <p>Going to elbrus, if you want like me</p>
+    <p>Copyright 2023 - GoingToElbrus</p>
+</footer>
+
+<!-- JS script -->
+<script>
+    $(document).ready(function() {
+$('#autoWidth,#autoWidth2').lightSlider({
+  autoWidth:true,
+  loop:true,
+  onSliderLoad: function() {
+      $('#autoWidth,#autoWidth2').removeClass('cS-hidden');
+  } 
+});  
+});
+</script>
+
+</section>
+</body>
+</html>
